@@ -9,6 +9,6 @@ steps:
     submodules: true
   - task: AzureStaticWebApp@0
     inputs:
-      app_location: 'MyHealth.Web/wwwroot'
-      output_location: 'wwwroot'
+      app_location: 'MyHealth.Web'
+      output_location: 'MyHealth.Web/wwwroot'
       azure_static_web_apps_api_token: $(deployment_token)
